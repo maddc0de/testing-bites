@@ -1,14 +1,16 @@
 require 'string_builder'
 
 RSpec.describe StringBuilder do
-  it "initially returns an empty string as output" do
-    string = StringBuilder.new
-    expect(string.output).to eq ""
-  end
+  context "initially" do
+    it "initially returns an empty string as output" do
+      string = StringBuilder.new
+      expect(string.output).to eq ""
+    end
 
-  it "initially returns a string's size of zero" do
-    string = StringBuilder.new
-    expect(string.size).to eq 0
+    it "initially returns a string's size of zero" do
+      string = StringBuilder.new
+      expect(string.size).to eq 0
+    end
   end
 
   context "given one addition of a string" do
