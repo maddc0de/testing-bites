@@ -9,5 +9,11 @@ RSpec.describe Reminder do
     expect(result).to eq "Walk the dog, Kay!"
   end
 
-  # typically have a number of thes examples
+  # testing for errors to be thrown properly
+  context "when no task is set" do
+    it "fails" do
+      reminder = Reminder.new("Kay")
+      expect { reminder.remind() }.to raise_error "No reminder set!"
+    end
+  end
 end
