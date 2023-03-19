@@ -1,6 +1,6 @@
 # TESTING-BITES
 
-**RSpec** is a behaviour driven development tool in Ruby.
+*RSpec* is a behaviour driven development tool in Ruby.
 ----
 
 ## Objective
