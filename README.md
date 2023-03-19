@@ -1,11 +1,10 @@
 # TESTING-BITES
 
-*RSpec* is a behaviour driven development tool in Ruby.
 ----
 
 ## Objective
 
-A series of exercises to help me learn how to write tests with RSpec by:
+A series of exercises to help me learn how to write tests with RSpec (**RSpec** is a behaviour driven development tool in Ruby) by:
 
 [x] Testing Methods with Equality `eq`
 
