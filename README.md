@@ -1,10 +1,11 @@
 # TESTING-BITES
 
+**RSpec** is a behaviour driven development tool in Ruby.
 ----
 
 ## Objective
 
-To learn how to write tests with RSpec by:
+A series of exercises to help me learn how to write tests with RSpec by:
 
 [x] Testing Methods with Equality `eq`
 
@@ -16,4 +17,16 @@ To learn how to write tests with RSpec by:
 
 ----
 
-**RSpec** is a behaviour driven development tool in Ruby.
+## how to run it
+
+run it inside the testing-bites directory with the following commands in the command line:
+
+- to test all spec files:
+```shell
+$ rspec
+```
+
+- to test a specific spec file: (for example, to test greet.rb)
+```shell
+$ rspec spec/greet_spec.rb
+```
